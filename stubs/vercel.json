@@ -22,11 +22,10 @@
     "APP_DEBUG": "false",
     "APP_KEY": "{{ app_key }}",
     "DB_CONNECTION": "pgsql",
-    "DATABASE_URL": "",
     "DB_HOST": "127.0.0.1",
     "DB_PORT": "5432",
-    "DB_DATABASE": "",
-    "DB_USERNAME": "",
+    "DB_DATABASE": "verceldb",
+    "DB_USERNAME": "default",
     "DB_PASSWORD": ""
   }
 }
