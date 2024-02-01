@@ -16,9 +16,17 @@
     }
   ],
   "env": {
+    "APP_URL": "https://www.laravel-example.vercel.app",
+    "APP_TIMEZONE": "Europe/Berlin",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "APP_KEY": "{{ app_key }}",
-    "APP_URL": "https://www.laravel-example.vercel.app"
+    "DB_CONNECTION": "pgsql",
+    "DATABASE_URL": "",
+    "DB_HOST": "127.0.0.1",
+    "DB_PORT": "5432",
+    "DB_DATABASE": "",
+    "DB_USERNAME": "",
+    "DB_PASSWORD": ""
   }
 }
