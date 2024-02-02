@@ -11,14 +11,29 @@ Laravel Vercel requires your application to be compatible with PHP 7.4 or PHP 8.
 
 You can install the package via composer:
 
-```bash
-$ composer require devsolux/laravel-vercel
+```json
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/devsolux/laravel-vercel.git"
+    }
+  ]
+}
+```
+
+```json
+{
+  "require-dev": {
+    "devsolux/laravel-vercel": "dev-master"
+  }
+}
 ```
 
 Make the application reaady to be deployed:
 
 ```bash
-$ php artisan vercel:install
+php artisan vercel:install
 ```
 
 The above command will add 3 files to your laravel installation.
